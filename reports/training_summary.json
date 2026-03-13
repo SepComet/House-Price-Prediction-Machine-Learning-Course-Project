@@ -1,0 +1,39 @@
+{
+  "dataset": {
+    "rows": 20640,
+    "feature_count": 8,
+    "target_name": "MedHouseVal",
+    "missing_values": 0,
+    "target_mean": 2.0685581690891475,
+    "target_std": 1.1539561587441385
+  },
+  "models": [
+    {
+      "model_name": "LinearRegression",
+      "status": "completed",
+      "mae": 0.5332001304956565,
+      "mse": 0.5558915986952444,
+      "rmse": 0.7455813830127764,
+      "r2": 0.5757877060324508,
+      "note": null
+    },
+    {
+      "model_name": "DecisionTreeRegressor",
+      "status": "completed",
+      "mae": 0.45467918846899225,
+      "mse": 0.495235205629094,
+      "rmse": 0.7037294974840077,
+      "r2": 0.622075845135081,
+      "note": null
+    },
+    {
+      "model_name": "RandomForestRegressor",
+      "status": "completed",
+      "mae": 0.32681185043604677,
+      "mse": 0.2539759249192041,
+      "rmse": 0.5039602414072009,
+      "r2": 0.8061857564039718,
+      "note": null
+    }
+  ]
+}
